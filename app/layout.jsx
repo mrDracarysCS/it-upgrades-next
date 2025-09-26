@@ -9,8 +9,8 @@ export default function RootLayout({ children }) {
         <header className="sticky top-0 z-50 backdrop-blur border-b" style={{borderColor: 'var(--border)', background:'rgba(11,11,16,0.8)'}}>
           <div className="container py-3 flex items-center justify-between gap-4">
             <Link href="/" className="flex items-center gap-2">
-              <img src="/logo.svg" alt="IT Upgrades" className="w-7 h-7 rounded-lg"/>
-              <span className="font-bold tracking-tight">IT Upgrades</span>
+              <img src="/l.svg" alt="SELMAN COMMERCE LLC" className="w-7 h-7 rounded-lg"/>
+              <span className="font-bold tracking-tight">SELMAN COMMERCE LLC</span>
             </Link>
             <nav className="hidden md:flex items-center gap-6 text-sm text-zinc-300">
               <Link href="/#features">Features</Link>

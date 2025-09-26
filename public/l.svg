@@ -1,0 +1,40 @@
+<!-- selman-logo.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-labelledby="title">
+  <title>Neon laptop with circuit nodes</title>
+  <defs>
+    <!-- Edit these to change colors -->
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00FFC6"/>
+      <stop offset="1" stop-color="#00A3FF"/>
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Laptop outline -->
+  <g fill="none" stroke="url(#glow)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" filter="url(#softGlow)">
+    <!-- Screen -->
+    <rect x="18" y="18" rx="8" ry="8" width="60" height="44"/>
+    <!-- Base -->
+    <path d="M14 66h68c0 6-6 12-12 12H26c-6 0-12-6-12-12z"/>
+    <!-- Bezel line (bottom of screen) -->
+    <line x1="18" y1="56" x2="78" y2="56"/>
+    <!-- Center notch on base -->
+    <path d="M44 66c0 2 2 4 4 4s4-2 4-4"/>
+  </g>
+
+  <!-- Circuit nodes inside screen -->
+  <g fill="none" stroke="url(#glow)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" filter="url(#softGlow)">
+    <path d="M32 56V44"/>
+    <path d="M48 56V36"/>
+    <path d="M64 56V44"/>
+    <circle cx="32" cy="40" r="4" fill="none"/>
+    <circle cx="48" cy="32" r="4" fill="none"/>
+    <circle cx="64" cy="40" r="4" fill="none"/>
+  </g>
+</svg>

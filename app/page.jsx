@@ -55,7 +55,7 @@ export default function HomePage() {
             <a href="#plans" className="btn">See Plans</a>
             <Link href="/try-mockup" className="btn-ghost">Try the AI mockup</Link>
           </div>
-          <p className="mt-3 text-xs muted">Operating under SELMAN COMMERCE LLC (d/b/a IT Upgrades).</p>
+         
           <hr className="hr-neon mt-6" />
           {/* Stats */}
           <div className="mt-6 grid grid-cols-3 gap-6">
