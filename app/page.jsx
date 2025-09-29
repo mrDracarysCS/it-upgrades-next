@@ -53,7 +53,7 @@ export default function HomePage() {
           </p>
           <div className="mt-6 flex gap-3">
             <a href="#plans" className="btn">See Plans</a>
-            <Link href="/try-mockup" className="btn-ghost">Try the AI mockup</Link>
+            <a href="/contact" className="btn-ghost">Book a call</a>
           </div>
          
           <hr className="hr-neon mt-6" />
